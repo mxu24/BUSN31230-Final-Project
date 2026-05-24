@@ -64,11 +64,6 @@ By analyzing county-level datasets across the United States, this analytical das
 
 ---
 
-================================================================================
-[🚧 FILL-IN WORKBOOK SECTION BELOW 🚧]
-The sections below map directly to your required course synthesis steps.
-Fill these out once your Tableau model and presentation draft are fully built!
-
 ## 🧠 5. Course Reflection & Synthesis Workbook
 
 ### PART 1 — Core Skills Reflection
@@ -137,19 +132,6 @@ Fill these out once your Tableau model and presentation draft are fully built!
 ### PART 7 — Final Dashboard Production Gallery
 *Once your final presentation dashboard is published, export screenshots or wireframes and drop them here.*
 
-+-----------------------------------------------------------------------+
-|                         DASHBOARD ZONE TITLE                          |
-+------------------------------------+----------------------------------+
-|                                    |                                  |
-|        MAP VISUALIZATION AREA      |       SCATTERPLOT ANALYSIS       |
-|   (National Overlap Hotspots)      |     (Poverty vs. Obesity Rate)   |
-|                                    |                                  |
-+------------------------------------+----------------------------------+
-|                       SUBCATEGORY BAR CHART                           |
-|                  (Brand Dominance by Income Tier)                     |
-+-----------------------------------------------------------------------+
-
-*(💡 Replace the block above with real dashboard screenshots once complete!)*
 
 ---
 
