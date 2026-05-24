@@ -1,4 +1,4 @@
-# 🍔 Food Deserts or Fast Food Floods?
+# 🍔 Socioeconomic Foodscapes
 ### *Analyzing the Intersection of Poverty, Obesity, and Fast Food Density in the United States*
 
 ---
