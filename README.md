@@ -7,7 +7,6 @@
 * **Course:** BUSN 32130 Data Visualization
 * **Institution:** University of Chicago Booth School of Business
 * **Authors:** Brandt Burgdorf, Serge Wen, Maggie Xu
-* **Project Status:** 🚧 *In Progress (Awaiting Final Dashboard Elements)*
 
 ---
 
