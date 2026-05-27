@@ -20,6 +20,8 @@ Our final production dataset contains **25,144 rows**, representing **3,143 uniq
 ### 🎯 Core Dashboard Strategic Goal
 > **"This dashboard helps public health officials, community policymakers, and urban planners make better decisions about resource allocation and food-access zoning by showing the geographic and statistical correlations between poverty, obesity, and fast-food density."**
 
+Note: Obesity is driven by a multitude of factors thar are not considered in this exploration, including genetics, sleep deprivation, hormonal imbalances, chronic stress, and certain medications. Our goal is to analyze one facet of contributing socioeconomic conditions.
+
 ---
 
 ## 🔬 2. Core Hypotheses
