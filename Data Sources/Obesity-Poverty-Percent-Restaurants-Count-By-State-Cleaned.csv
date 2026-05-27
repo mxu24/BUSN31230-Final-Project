@@ -1,52 +1,52 @@
-﻿State,Obesity Prevalence,Poverty Rate All Ages,Restaurants Count
-Alabama,38.9,15.7,6
-Alaska,34,10.5,16
-Arizona,33.3,12.6,330
-Arkansas,38.9,15.4,102
-California,29.1,12,1201
-Colorado,25,9.4,148
-Connecticut,32,10.2,53
-Delaware,36.6,10.8,44
-District of Columbia,25.5,15.2,null
-Florida,29.6,12.4,621
-Georgia,35.4,13.7,420
-Hawaii,27,10.2,32
-Idaho,32.7,10.1,51
-Illinois,34.2,11.6,405
-Indiana,38.4,12.2,254
-Iowa,36.6,11.1,115
-Kansas,37.6,11.2,74
-Kentucky,37.2,16.1,166
-Louisiana,39.2,18.9,202
-Maine,33.2,10.5,25
-Maryland,32.7,9.7,172
-Massachusetts,27,10.5,205
-Michigan,36.1,13.5,374
-Minnesota,32.3,9.2,199
-Mississippi,40.4,18.3,55
-Missouri,34.6,12,163
-Montana,31,11.8,38
-Nebraska,37.6,10.2,87
-Nevada,34.2,12.2,121
-New Hampshire,31.1,7.3,34
-New Jersey,27.7,9.7,129
-New Mexico,34.5,16.9,78
-New York,29.5,14.1,352
-North Carolina,34.5,12.8,295
-North Dakota,36.8,10,35
-Ohio,36.9,13.2,522
-Oklahoma,36.8,15.8,166
-Oregon,33.5,12.1,154
-Pennsylvania,34.2,11.9,383
-Rhode Island,31.1,11.4,15
-South Carolina,34.6,13.9,188
-South Dakota,37,11.4,42
-Tennessee,null,13.8,302
-Texas,35.6,13.7,811
-Utah,31,9,63
-Vermont,29,9.9,15
-Virginia,32.3,10.2,253
-Washington,31.5,10.3,196
-West Virginia,41.4,16.4,70
-Wisconsin,37.4,10.6,189
-Wyoming,32.5,10.4,29
+﻿State,Obesity Prevalence,Poverty Rate All Ages,Restaurants Count,Restaurants Density per 10k
+Alabama,38.9,15.7,6,0.011745204
+Alaska,34,10.5,16,0.218160201
+Arizona,33.3,12.6,330,0.444065031
+Arkansas,38.9,15.4,102,0.33249319
+California,29.1,12,1201,0.308223804
+Colorado,25,9.4,148,0.251803029
+Connecticut,32,10.2,53,0.146523144
+Delaware,36.6,10.8,44,0.426402039
+District of Columbia,25.5,15.2,null,null
+Florida,29.6,12.4,621,0.274648412
+Georgia,35.4,13.7,420,0.380806379
+Hawaii,27,10.2,32,0.222975073
+Idaho,32.7,10.1,51,0.25957818
+Illinois,34.2,11.6,405,0.322717161
+Indiana,38.4,12.2,254,0.370143848
+Iowa,36.6,11.1,115,0.358590136
+Kansas,37.6,11.2,74,0.251653945
+Kentucky,37.2,16.1,166,0.366757296
+Louisiana,39.2,18.9,202,0.441650821
+Maine,33.2,10.5,25,0.179118764
+Maryland,32.7,9.7,172,0.278305759
+Massachusetts,27,10.5,205,0.292798625
+Michigan,36.1,13.5,374,0.372611612
+Minnesota,32.3,9.2,199,0.346815873
+Mississippi,40.4,18.3,55,0.187094558
+Missouri,34.6,12,163,0.263066327
+Montana,31,11.8,38,0.335448424
+Nebraska,37.6,10.2,87,0.43975396
+Nevada,34.2,12.2,121,0.378814442
+New Hampshire,31.1,7.3,34,0.242501359
+New Jersey,27.7,9.7,129,0.138846419
+New Mexico,34.5,16.9,78,0.368904038
+New York,29.5,14.1,352,0.179855968
+North Carolina,34.5,12.8,295,0.272253468
+North Dakota,36.8,10,35,0.446470713
+Ohio,36.9,13.2,522,0.442900797
+Oklahoma,36.8,15.8,166,0.409489904
+Oregon,33.5,12.1,154,0.363777408
+Pennsylvania,34.2,11.9,383,0.295486319
+Rhode Island,31.1,11.4,15,0.136866059
+South Carolina,34.6,13.9,188,0.349861498
+South Dakota,37,11.4,42,0.456860412
+Tennessee,null,13.8,302,0.423771088
+Texas,35.6,13.7,811,0.265872864
+Utah,31,9,63,0.18433266
+Vermont,29,9.9,15,0.231673112
+Virginia,32.3,10.2,253,0.290280824
+Washington,31.5,10.3,196,0.250867798
+West Virginia,41.4,16.4,70,0.395464363
+Wisconsin,37.4,10.6,189,0.319745287
+Wyoming,32.5,10.4,29,0.49652688
