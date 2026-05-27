@@ -51,7 +51,7 @@ Our final production dataset contains **25,144 rows**, representing **3,143 uniq
 
 ### Data Preparation & Cleansing Workflow
 1. **Deduplication & Standardization:** Cleaning fast-food chain nomenclature (e.g., standardizing `McDonalds`, `McDonald's`, and `mcdonalds`) to ensure proper grouping.
-2. **Spatial Join / Aggregation:** Translating point-level coordinate data (Latitude/Longitude) into unique US County FIPS codes using GIS tools / Tableau spatial blending.
+2. **Spatial Join / Aggregation:** Translating point-level coordinate data (Latitude/Longitude) into unique US County FIPS codes using GIS tools / Tableau spatial blending. Extrapolate additional datapoints to create larger more complete dataset overall. 
 3. **Feature Engineering:** Creating calculated fields for population-normalized metrics within Tableau:
    $$\text{Fast Food Density} = \left( \frac{\text{Total Restaurants}}{\text{County Population}} \right) \times 10,000$$
 4. **Data Blending Matrix:** Linking all cleaned tables together inside Tableau using **County FIPS Codes** as the primary relational key.
@@ -236,5 +236,5 @@ To keep the dashboard readable, we chose not to overload it with too many simult
 In accordance with academic integrity guidelines, this section outlines the specific, collaborative role generative AI played in the preparation of this project's data pipeline, technical workflows, and visualization strategy. 
 
 * **Data Wrangling & Exploratory Python Visualization:** AI was utilized to write initial exploratory Python scripts to inspect the underlying structure of the original datasets. This helped identify data quality anomalies, structural gaps, missing coordinates, and text discrepancies across thousands of rows. We also used AI for initial drafts of Python visualizations.
-* **Data Cleaning & Standardization Workflow:** AI assisted in designing the logical workflows required to standardize data and ensure data aggregation within Tableau would not result in duplicate counts.
-* **Tableau Visualization Technical Instructions:** AI provided step-by-step guidance on fixing diagrams natively within Tableau.
+* **Data Cleaning & Standardization Workflow:** AI assisted in designing the logical workflows required to standardize data and ensure data aggregation within Tableau would not result in duplicate counts. AI also helped embed US county census data into our main data source that otherwise did not exist in our original tables. It was also instructed to extrapolate data to create a larger more thorough dataset for use in chloropleth main map. 
+* **Tableau Visualization Technical Instructions:** AI provided step-by-step guidance on fixing diagrams natively within Tableau but did not directly create our final dashboard itself.
