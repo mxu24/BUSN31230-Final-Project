@@ -240,3 +240,13 @@ To keep the dashboard readable, we chose not to overload it with too many simult
 * **Regional high-risk counties:** South **987**, Midwest **261**, West **83**, Northeast **3**
 * **Largest categories by estimated locations:** Chicken, Burger, Coffee, Pizza
 * **Top chains by estimated locations in the integrated file:** Chick-fil-A, KFC, Dunkin, Subway, Starbucks, McDonald’s
+
+---
+
+### 🤖 AI Acknowledgement & Usage Statement
+
+In accordance with academic integrity guidelines, this section outlines the specific, collaborative role generative AI played in the preparation of this project's data pipeline, technical workflows, and visualization strategy. 
+
+* **Data Wrangling & Exploratory Python Visualization:** AI was utilized to write initial exploratory Python scripts to inspect the underlying structure of the original datasets. This helped identify data quality anomalies, structural gaps, missing coordinates, and text discrepancies across thousands of rows. We also used AI for initial drafts of Python visualizations.
+* **Data Cleaning & Standardization Workflow:** AI assisted in designing the logical workflows required to standardize data and ensure data aggregation within Tableau would not result in duplicate counts.
+* **Tableau Visualization Technical Instructions:** AI provided step-by-step guidance on fixing diagrams natively within Tableau.
