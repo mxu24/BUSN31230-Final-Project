@@ -101,9 +101,9 @@ The dashboard layout follows a deliberate reading path. Users first see a macro-
 
 ### Planned Interactive System
 * `[x]` **Global State/County Filters:** Allows local officials to drill directly down into their own jurisdictions.
-* `[ ]` **Demographic Parameter Switchers:** Switches views across different age brackets using the CDC demographic data layers.
 * `[x]` **Top-N Dynamic Filter / Ranked County View:** Supports quick isolation of the highest-risk counties for targeting.
 * `[x]` **Map-to-Detail Interaction:** Clicking or filtering geographic views updates lower-level charts such as county rankings and category mix.
+* `[ ]` **Demographic Parameter Switchers:** Switches views across different age brackets using the CDC demographic data layers. Given more time, this would be a great option to extend our current implementation.
 
 ---
 
@@ -196,39 +196,28 @@ We selected a **clean sans-serif typeface strategy** in Tableau because the dash
 | **Category Concentration Risk** | Burger and chicken categories account for the largest estimated location totals in the analytical file, indicating category dominance rather than balanced food environments. | Use category-mix monitoring when evaluating whether new fast-food permits worsen local concentration. |
 | **County-Level Outliers** | Some counties dramatically exceed average poverty, obesity, and risk thresholds and appear repeatedly at the top of county rankings. | Treat top-ranked counties as immediate intervention candidates for pilot programs and resource testing. |
 
----
-
-### PART 7 — Final Dashboard Production Gallery
-*Once your final presentation dashboard is published, export screenshots or wireframes and drop them here.*
-
-#### Suggested Gallery Inserts
-* Main Dashboard full screenshot
-* Risk Map screenshot
-* Poverty vs. Obesity scatterplot screenshot
-* Highest Risk Counties screenshot
-* FF Category Mix screenshot with county drill-down
 
 ---
 
-### PART 8 — Critical Evaluation & Post-Mortem
+### PART 7 — Critical Evaluation & Post-Mortem
 
-#### 8.1 Remaining Limitations & Data Gaps
+#### 7.1 Remaining Limitations & Data Gaps
 Our fast-food location count relies on combined public Kaggle tables and estimated chain expansion logic rather than a live commercial retail registry. This means the dashboard should be interpreted as a **programmatic proof of concept**, not a real-time census of all fast-food establishments. In addition, chain/category joins introduce repeated county rows, which required careful county-level LOD handling in Tableau to avoid double counting. Some of the strongest correlations in the final dataset are partly influenced by the way the composite risk system was engineered, so those statistics should be interpreted as dashboard-support evidence rather than standalone causal proof.
 
 Additional limitations include the fact that county-level averages can hide within-county neighborhood differences, some fast-food coverage remains incomplete even after enrichment, and obesity and poverty measures are public-agency estimates rather than direct observation. Because of this, the dashboard is strongest as a screening and prioritization tool rather than a final causal model.
 
-#### 8.2 Key Assumptions
+#### 7.2 Key Assumptions
 * We assume **county** is the most reasonable decision-making unit because poverty and obesity data are available consistently at that level.
 * We assume **fast-food density per 10,000 residents** is a more meaningful measure than raw count for comparing counties of very different population sizes.
 * We assume the integrated restaurant data captures enough of the fast-food environment to reveal broad structural patterns, even though it is not a perfect census.
 * We assume composite risk and intervention priority scores are useful for ranking and screening, but not a substitute for local policy judgment.
 
-#### 8.3 Simplification Opportunities
+#### 7.3 Simplification Opportunities
 To keep the dashboard readable, we chose not to overload it with too many simultaneous demographic and geographic layers. We cut several ideas from the initial draft, including excessive chain-by-chain breakdowns, redundant regional maps, and too many competing color encodings. We also simplified the narrative so that the dashboard answers three main questions clearly: **Where is risk highest? Why is it high? What should a stakeholder do next?**
 
 ---
 
-## 🧾 9. Selected Quantitative Findings for Presentation Use
+## 🧾 8. Selected Quantitative Findings for Presentation Use
 * **Counties represented:** 3,143
 * **High-risk counties:** 1,334 (**42.4%**)
 * **Mean composite risk score:** **91.2**
