@@ -4300,8 +4300,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='4300' minheight='4300' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='198' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99428' id='197' param='vert' type-v2='layout-flow' w='99000' x='500' y='286'>
+            <zone h='100000' id='200' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99428' id='199' param='vert' type-v2='layout-flow' w='99000' x='500' y='286'>
                 <zone forceUpdate='true' h='3925' id='77' type-v2='text' w='99000' x='500' y='286'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontname='Verdana' fontsize='28'>Socioeconomic Foodscapes </run>
@@ -4881,8 +4881,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='4450' minheight='4450' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='196' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99428' id='195' param='vert' type-v2='layout-flow' w='99000' x='500' y='286'>
+            <zone h='100000' id='198' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='197' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000'>
                 <zone forceUpdate='true' h='3927' id='77' type-v2='text' w='99000' x='500' y='286'>
                   <formatted-text>
                     <run bold='true' fontcolor='#000000' fontsize='20'>Socioeconomic Foodscapes </run>
@@ -5161,6 +5161,62 @@
     </dashboard>
   </dashboards>
   <windows source-height='135'>
+    <window class='dashboard' maximized='true' name='FINAL Dashboard'>
+      <viewpoints>
+        <viewpoint name='Fast Food Categories' />
+        <viewpoint name='Fast Food Prevalence Map'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Fast Food vs Obesity'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Highest Risk Counties' />
+        <viewpoint name='KPI - Obesity Rate'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='KPI - Poverty'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='KPI Avg Risk Score'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='KPI Fast Food per 10K'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='KPI High Risk Counties'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='KPI Total Fast Food Locations'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='Obesity Prevalence Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Poverty Prevalence Map'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Poverty vs Fast Food'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Poverty vs Obesity'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Poverty vs. Obesity'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Regional Risk Horizontal' />
+        <viewpoint name='Risk Map'>
+          <zoom type='entire-view' />
+          <floating-toolbar-visibility value='2' />
+          <geo-search-visibility value='1' />
+          <map-navigation value='1' />
+        </viewpoint>
+        <viewpoint name='Top Fast Food Chains' />
+      </viewpoints>
+      <active id='115' />
+      <simple-id uuid='{5D8348D1-2A64-449B-B79A-49D8ED32FAA0}' />
+    </window>
     <window class='worksheet' name='KPI - Poverty'>
       <cards>
         <edge name='left'>
@@ -5796,64 +5852,8 @@
           </highlight>
         </viewpoint>
       </viewpoints>
-      <active id='77' />
+      <active id='-1' />
       <simple-id uuid='{BCB742BE-E48B-4F71-88B2-6FDE5F12F0AB}' />
-    </window>
-    <window class='dashboard' maximized='true' name='FINAL Dashboard'>
-      <viewpoints>
-        <viewpoint name='Fast Food Categories' />
-        <viewpoint name='Fast Food Prevalence Map'>
-          <zoom type='entire-view' />
-          <default-map-tool-selection tool='1' />
-        </viewpoint>
-        <viewpoint name='Fast Food vs Obesity'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Highest Risk Counties' />
-        <viewpoint name='KPI - Obesity Rate'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='KPI - Poverty'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='KPI Avg Risk Score'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='KPI Fast Food per 10K'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='KPI High Risk Counties'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='KPI Total Fast Food Locations'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='Obesity Prevalence Map'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Poverty Prevalence Map'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Poverty vs Fast Food'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Poverty vs Obesity'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Poverty vs. Obesity'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Regional Risk Horizontal' />
-        <viewpoint name='Risk Map'>
-          <zoom type='entire-view' />
-          <floating-toolbar-visibility value='2' />
-          <geo-search-visibility value='1' />
-          <map-navigation value='1' />
-        </viewpoint>
-        <viewpoint name='Top Fast Food Chains' />
-      </viewpoints>
-      <active id='115' />
-      <simple-id uuid='{5D8348D1-2A64-449B-B79A-49D8ED32FAA0}' />
     </window>
   </windows>
   <thumbnails>
