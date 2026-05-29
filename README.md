@@ -13,12 +13,12 @@
 ## Project Motivation
 While adult obesity is frequently framed as an isolated matter of personal lifestyle, it is deeply intertwined with systemic socioeconomic factors and local food environments. This project explores how a community’s commercial environment and economic status influence public health outcomes. 
 
-This dashboard is intended to help public health officials, community policymakers, and urban planners make better decisions about resource allocation and food-access zoning by showing the geographic and statistical correlations between poverty, obesity, and fast-food density."
+This dashboard is intended to help public health officials, community policymakers, and urban planners make better decisions about resource allocation and food-access zoning by showing the geographic and statistical correlations between poverty, obesity, and fast-food density.
 
 ---
 
 ## Core Hypothesis
-U.S. counties with higher poverty rates will exhibit a statistically significant positive correlation with adult obesity rates and a higher concentration of fast-food points of interest (POIs).
+U.S. counties with higher poverty rates will exhibit a statistically significant positive correlation with adult obesity rates and a higher concentration of fast-food locations.
 
 ---
 
