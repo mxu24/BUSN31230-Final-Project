@@ -22,7 +22,7 @@ U.S. counties with higher poverty rates will exhibit a statistically significant
 
 ---
 
-### Data Sources & Architecture
+### Data Sources
 
 | Data Source | Type | Scope / Limitations |
 | :--- | :--- | :--- |
